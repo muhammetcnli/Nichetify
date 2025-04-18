@@ -12,13 +12,12 @@ Discover your niche, discover your sound.
 - Spring Configuration Processor
 
 # TODO
-- [ ] Initialize Spring Boot project
-- [ ] Connect with Spotify API
-  - [ ] Make a client for Spotify API
-  - [ ] Get the spotify token
-    - [ ] Get the necessary data's from config file
-    - [ ] Get Spotify Access Token
-      - [ ] Use WebClient class
+- [x] Initialize Spring Boot project
+- [x] Connect with Spotify API
+  - [x] Make a client for Spotify API
+  - [x] Get the spotify token
+    - [x] Get the necessary data's from config file
+    - [x] Get Spotify Access Token
 - [ ] Authenticate user with OAuth2
   - [ ] Start OAuth2 authentication with Spring Security
   - [ ] Make a page for "Login with spotify"
