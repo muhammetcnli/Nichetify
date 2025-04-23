@@ -65,6 +65,10 @@ public class AuthService {
         return credentials.getAccessToken();
     }
 
+    public SpotifyApi getSpotifyApi() {
+        return spotifyApi;
+    }
+
     public String getDisplayName() throws Exception{
         return spotifyApi.getCurrentUsersProfile().build().execute().toString();
     }
